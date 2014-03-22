@@ -1,0 +1,233 @@
+/* Set Your Own Margin & Padding */
+
+body {
+	background: url("../img/grey_sandbag_@2X.png");
+	font-family: 'Alef', sans-serif;
+}
+
+/*intro*/
+
+.logo {
+	height: 15.625em;
+	background: url("../img/website_logo.png") no-repeat;
+	position: relative;
+	z-index: 100;
+
+}
+
+/*Navigation*/
+
+nav {
+	position: absolute;
+	bottom: 1.5em;
+	left: 6.33em;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+}
+
+nav ul {
+	margin: 0;
+	-webkit-padding-start: 0px;
+}
+
+nav a {
+	font-size: 2em;
+	background: #1E1933;
+  	color: #ededed;
+  	font-family: 'Roboto', sans-serif;
+  	font-weight: 6.25em;
+  	text-align: center;
+	text-decoration: none;
+	padding: .15em .4em;
+	display: block;
+	
+}
+
+nav a:hover {
+	color: #E2231A;
+}
+
+nav a:visited {
+
+}
+
+/*navigation end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+	margin: 10px 0 0 0;
+	font-family: 'Roboto', sans-serif;
+	color: #1E1933;
+}
+
+h2 {
+	margin: 10px 0 0 0;
+	font-family: 'Roboto', sans-serif;
+	color: #1E1933;
+}
+
+h3 {
+	margin: 10px 0 0 0;
+	font-family: 'Roboto', sans-serif;
+	color: #E2231A;
+}
+
+section p {
+	margin: 10px 0 0 0;
+	color: black;
+	font-family: 'Alef', sans-serif;
+
+}
+
+a {
+	/*margin: 10px 0 0 0;*/
+	color: #E2231A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+/*.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 
+*/
+
+
+.color-1 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+
+	background: #1E1933;
+
+}
+
+.color-2 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+
+	background: #E2231A;
+
+}
+
+.color-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+
+	background: #FFFFFF;
+
+}
+
+.pattern-1 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+
+	background: url("../img/shattered.png");
+
+}
+
+.pattern-2 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+
+	background: url("../img/mooning_@2X.png");
+
+}
+
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+
+	background: url("../img/grey_sandbag_@2X.png");
+
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+
+
+
+
+
+
+/*
+h3 {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+h4 {
+	color: orange;
+	font-size: 1.25em;
+
+	h5{
+		font-size: .75em;
+	}
+}
+
+
+
+/*1em == 16px*/
+
+
+
+/*adaptive design nav*/
+@media screen and (max-width: 53em) {
+
+	nav {
+		width: 35em;
+		bottom: 3.15em;
+		left: 6.33em;
+	}
+
+	nav a {
+		font-size: 1em;
+	}
+
+
+
+
+

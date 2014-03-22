@@ -1,0 +1,222 @@
+
+body {
+	background: url("../img/grey_sandbag_@2X.png");
+	font-family: 'Alef', sans-serif;
+}
+
+/*intro*/
+
+.logo {
+	height: 15.625em;
+	background: url("../img/website_logo.png") no-repeat;
+	position: relative;
+	z-index: 100;
+
+}
+
+/*Navigation*/
+
+nav {
+	position: absolute;
+	bottom: 1.5em;
+	left: 6.33em;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+}
+
+nav ul {
+	margin: 0;
+	-webkit-padding-start: 0px;
+}
+
+nav a {
+	font-size: 2em;
+	background: #1E1933;
+  	color: #ededed;
+  	font-family: 'Roboto', sans-serif;
+  	font-weight: 6.25em;
+  	text-align: center;
+	text-decoration: none;
+	padding: .15em .4em;
+	display: block;
+	
+}
+
+nav a:hover {
+	color: #E2231A;
+}
+
+nav a:visited {
+
+}
+
+/*navigation end*/
+
+/*RajunCajun*/
+
+.intro {
+	width: 51.875em;
+
+}
+
+.intro p {
+	font-size: 1.25em;
+
+}
+
+.intro img {
+	width: 33.6em;
+	float: left;
+	margin: 0 1.5em 0 6.33em;
+	border: .3125em groove #1E1933;
+}
+
+
+
+
+h1, h3 {
+	background: #1E1933;
+	color: #ededed;
+	padding: .25em;
+	
+}
+
+/*RajunCajun end*/
+
+/*Portfolio*/
+
+.images img {
+	width: 45em;
+	float: left;
+	margin: 0 1.5em 1.5em 6.33em;
+	border: .3125em groove #1E1933;
+
+
+}
+
+/*
+.images {
+	transition: all;
+}
+*/
+
+/*Portfolio end*/
+
+/*gallery external css*/
+
+/*About*/
+
+.life {
+	width: 45.6em;
+	float: left;
+	margin: 0 1.5em 1.5em 6.33em;
+}
+
+.life p {
+	font-size: 1.25em;
+}
+
+
+
+/*About end*/
+
+/*style external css*/
+
+/*Resume*/
+
+.content {
+	width: 45.545em;
+	margin-left: 6.33em;
+}
+
+.image_main img {
+	width: 20em;
+	float: left;
+	margin-bottom: 1.5em;
+	margin-right: 1.5em;
+	border: .3125em groove #1E1933;
+}
+
+.stuff p {
+	margin-left: 21.5em;
+	border: .3125em groove #1E1933;
+}
+
+
+/*Resume end*/
+
+/*adaptive design nav*/
+@media screen and (max-width: 53em) {
+
+	nav {
+		width: 35em;
+		bottom: 3.15em;
+		left: 6.33em;
+	}
+
+	nav a {
+		font-size: 1em;
+	}
+
+
+/*adaptive design RajunCajun*/
+	.intro {
+		width: 28.875em;
+	}
+
+	.intro img {
+		width: 22em;
+	}
+
+  	.intro p {
+  		-webkit-margin-before: 0em;
+  		-webkit-margin-after: 0em;
+  		margin: 1.5em 0 0 7.85em;
+  		font-size: .8em;
+  	}
+
+/*adaptive design Portfolio*/
+	.images img {
+		width: 22em;
+		
+	}
+
+/*adaptive design About*/
+	.life {
+		width: 22.55em;
+		
+	}
+
+	.life h3 {
+		font-size: 1em;
+	}
+
+	.life p {
+		font-size: .8em;
+	}
+
+
+/*adaptive design Resume*/
+
+	.content {
+	width: 22.55em;
+	margin-left: 6.33em;
+	}
+
+	.image_main img {
+		width: 21.9em;
+	}
+
+	.stuff p {
+		margin-left: 0em;
+		
+	}
+
+	.stuff :nth-child(1) {
+		margin-top: 55.5em;
+	}
+
+}
